@@ -1,5 +1,7 @@
 # Scalding Example Project [![Build Status](https://travis-ci.org/snowplow/scalding-example-project.png)](https://travis-ci.org/snowplow/scalding-example-project)
 
+Forked from [here][https://github.com/snowplow/scalding-example-project].
+
 ## Introduction
 
 This is Twitter's [`WordCountJob`] [wordcount] example for [Scalding] [scalding] adapted to run on Hadoop as a standalone job - i.e. without requiring `scald.rb` etc.
