@@ -77,6 +77,14 @@ And comment out the Hadoop jar exclusions:
     // "hadoop-core-0.20.2.jar", // Provided by Amazon EMR. Delete this line if you're not on EMR
     // "hadoop-tools-0.20.2.jar" // "
 
+*Added by dpiao@dataminr.com (130605)*
+
+Additionally, in file 
+
+    project/Dependencies.scala
+
+Comment out `provided` in line `hadoopCore`.    
+
 ## Next steps
 
 Fork this project and adapt it into your own custom Scalding job.
